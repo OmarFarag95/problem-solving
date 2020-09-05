@@ -1,7 +1,7 @@
 package easy;
 
 public class apple_and_orange {
-	
+
 	static void countApplesAndOranges(int s, int t, int a, int b, int[] apples, int[] oranges) {
 
 		int apples_count = 0;
