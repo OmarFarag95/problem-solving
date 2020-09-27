@@ -1,3 +1,4 @@
+package easy;
 import java.io.*;
 import java.math.*;
 import java.security.*;
@@ -6,7 +7,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class Solution {
+public class a_very_big_sum {
 
 	// Complete the aVeryBigSum function below.
 	static long aVeryBigSum(long[] ar) {
@@ -15,3 +16,4 @@ public class Solution {
             sum+=ar[i];
             return sum;
     }
+}
