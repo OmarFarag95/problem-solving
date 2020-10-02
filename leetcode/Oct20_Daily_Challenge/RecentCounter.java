@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Oct20_Daily_Challenge;
 
 import java.util.ArrayList;
 import java.util.HashMap;
