@@ -1,4 +1,4 @@
-package warmup;
+package hackerrank.warmup;
 
 import java.math.BigInteger;
 import java.util.Arrays;

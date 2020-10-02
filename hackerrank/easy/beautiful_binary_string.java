@@ -1,4 +1,4 @@
-package easy;
+package hackerrank.easy;
 
 public class beautiful_binary_string {
 

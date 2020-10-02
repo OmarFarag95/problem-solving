@@ -1,4 +1,4 @@
-package easy;
+package hackerrank.easy;
 
 public class intro_to_tutorial_challenges {
 

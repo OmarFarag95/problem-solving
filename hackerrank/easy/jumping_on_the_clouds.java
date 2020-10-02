@@ -1,4 +1,4 @@
-package easy;
+package hackerrank.easy;
 
 public class jumping_on_the_clouds {
 

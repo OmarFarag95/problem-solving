@@ -1,4 +1,4 @@
-package medium;
+package hackerrank.medium;
 
 public class counter_game {
 

@@ -1,4 +1,4 @@
-package easy;
+package hackerrank.easy;
 
 public class divisble_sum_pairs {
 	static int divisibleSumPairs(int n, int k, int[] ar) {

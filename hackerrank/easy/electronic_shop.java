@@ -1,4 +1,4 @@
-package easy;
+package hackerrank.easy;
 
 public class electronic_shop {
 	static int getMoneySpent(int[] keyboards, int[] drives, int b) {

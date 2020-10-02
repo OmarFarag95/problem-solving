@@ -1,4 +1,4 @@
-package easy;
+package hackerrank.easy;
 
 public class counting_valleys {
 	static int countingValleys(int n, String s) {

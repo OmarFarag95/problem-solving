@@ -1,4 +1,4 @@
-package warmup;
+package hackerrank.warmup;
 
 public class diagonal_difference {
 	static int diagonalDifference(int[][] arr) {

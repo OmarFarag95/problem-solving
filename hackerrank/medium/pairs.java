@@ -1,5 +1,4 @@
-package medium;
-
+package hackerrank.medium;
 import java.util.HashSet;
 
 public class pairs {

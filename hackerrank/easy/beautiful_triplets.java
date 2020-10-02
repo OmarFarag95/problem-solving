@@ -1,5 +1,4 @@
-package easy;
-
+package hackerrank.easy;
 public class beautiful_triplets {
 
 	// Complete the beautifulTriplets function below.

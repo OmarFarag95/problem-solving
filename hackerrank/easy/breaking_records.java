@@ -1,4 +1,4 @@
-package easy;
+package hackerrank.easy;
 
 public class breaking_records {
 	static int[] breakingRecords(int[] scores) {

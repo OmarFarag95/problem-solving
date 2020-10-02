@@ -1,4 +1,4 @@
-package medium;
+package hackerrank.medium;
 
 import java.util.List;
 

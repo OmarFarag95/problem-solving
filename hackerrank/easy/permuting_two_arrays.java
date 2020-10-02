@@ -1,5 +1,4 @@
-package easy;
-
+package hackerrank.easy;
 import java.util.HashMap;
 
 public class permuting_two_arrays {

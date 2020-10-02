@@ -1,4 +1,4 @@
-package hard;
+package hackerrank.hard;
 
 import java.util.Arrays;
 

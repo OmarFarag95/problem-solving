@@ -1,4 +1,4 @@
-package warmup;
+package hackerrank.warmup;
 
 public class simple_array_sum {
 	

@@ -1,4 +1,4 @@
-package hard;
+package hackerrank.hard;
 
 public class chief_hopper {
 

@@ -1,4 +1,4 @@
-package warmup;
+package hackerrank.warmup;
 
 public class very_big_sum {
 

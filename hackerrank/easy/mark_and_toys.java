@@ -1,5 +1,4 @@
-package easy;
-
+package hackerrank.easy;
 import java.util.Arrays;
 
 public class mark_and_toys {

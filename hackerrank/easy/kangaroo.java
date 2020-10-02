@@ -1,4 +1,4 @@
-package easy;
+package hackerrank.easy;
 
 public class kangaroo {
 	static String kangaroo(int x1, int v1, int x2, int v2) {

@@ -1,4 +1,4 @@
-package easy;
+package hackerrank.easy;
 
 public class modified_kaprekar_number {
 	static boolean checkIfKaprekar(int n) {
