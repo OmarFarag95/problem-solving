@@ -1,4 +1,4 @@
-package leetcode.Oct20_Daily_Challenge;
+package leetcode;
 
 public class remove_covered_intervals {
 	public int removeCoveredIntervals(int[][] intervals) {

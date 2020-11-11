@@ -1,4 +1,4 @@
-package leetcode.Oct20_Daily_Challenge;
+package leetcode;
 
 public class complement_of_base_10_integer {
 	public int bitwiseComplement(int N) {

@@ -1,4 +1,4 @@
-package leetcode.Oct20_Daily_Challenge;
+package leetcode;
 
 //Definition for a binary tree node.
 class TreeNode {

@@ -1,4 +1,4 @@
-package leetcode.Oct20_Daily_Challenge;
+package leetcode;
 
 public class binary_search {
 	public int search(int[] nums, int target) {
