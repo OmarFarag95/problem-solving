@@ -50,3 +50,47 @@ class Solution {
         return out;
     }
 }
+
+
+// Another solution
+
+/*class Solution {
+    public int[] topKFrequent(int[] nums, int k) {
+
+        HashMap < Integer, Integer > freqs = new HashMap < Integer, Integer > ();
+
+        Map < Integer, ArrayList < Integer >> freqs_vs_values = new TreeMap < Integer, ArrayList < Integer >> (Collections.reverseOrder());
+
+        for (int i = 0; i < nums.length; i++)
+            freqs.put(nums[i], freqs.getOrDefault(nums[i], 0) + 1);
+
+
+        for (int i: freqs.keySet()) {
+            int v = freqs.get(i);
+
+            if (freqs_vs_values.containsKey(v)) {
+                ArrayList < Integer > candidates = freqs_vs_values.get(v);
+                candidates.add(i);
+
+                freqs_vs_values.put(v, candidates);
+            } else {
+                ArrayList < Integer > candidates = new ArrayList < Integer > ();
+                candidates.add(i);
+
+                freqs_vs_values.put(v, candidates);
+            }
+        }
+
+        ArrayList < Integer > output = new ArrayList < Integer > ();
+
+        for (int i: freqs_vs_values.keySet()) {
+            ArrayList < Integer > x = freqs_vs_values.get(i);
+            for (int j = 0; j < x.size() && output.size() < k; j++)
+                output.add(x.get(j));
+
+        }
+
+        return output.stream().mapToInt(i - > i).toArray();
+
+    }
+}*/
