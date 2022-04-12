@@ -1,4 +1,4 @@
-    class Solution {
+class Solution {
 
         public List < List < Integer >> shiftGrid(int[][] grid, int k) {
             List < List < Integer >> result = new ArrayList();
@@ -30,7 +30,6 @@
                     c = 0;
                     result.add(curr);
                     curr = new ArrayList < Integer > ();
-                    curr.clear();
                     r++;
                 }
             }
@@ -44,16 +43,13 @@
         
     public List < List < Integer >> shiftGrid(int[][] grid, int k) {
             List < List < Integer >> result = new ArrayList();
-
             int m = grid.length;
             int n = grid[0].length;
-
             int[][] rotated_arr = grid.clone();
             while (k != 0) {
                 rotated_arr = rotate_once(grid);
                 k--;
             }
-
             for (int i = 0; i < m; i++) {
                 List < Integer > curr = new ArrayList < Integer > ();
                 for (int j = 0; j < n; j++) {
@@ -61,18 +57,13 @@
                 }
                 result.add(curr);
             }
-
             return result;
-
         }
-
         public int[][] rotate_once(int[][] grid) {
             int m = grid.length;
             int n = grid[0].length;
-
             Queue < Integer > v = new LinkedList < Integer > ();
             int start = -1;
-
             for (int i = 0; i < m; i++) {
                 for (int j = 0; j < n; j++) {
                     if (j > 0) {
@@ -83,18 +74,14 @@
                         else start = grid[i][n - j - 1];
                     }
                 }
-
             }
-
             int i = 1;
             while (v.size() != 0) {
                 int pre = v.poll();
                 grid[i][0] = pre;
                 i++;
             }
-
             grid[0][0] = start;
-
             return grid;
         }
     }
