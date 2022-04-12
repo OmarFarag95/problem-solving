@@ -8,20 +8,24 @@ class Solution {
 
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                if (board[i][j] == 1)
+                if (board[i][j] == 1) {
                     output[i][j] = status_one(board, i, j, m, n);
-                else output[i][j] = status_zero(board, i, j, m, n);
+                } else output[i][j] = status_zero(board, i, j, m, n);
             }
         }
 
+
         for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++)
+            for (int j = 0; j < n; j++) {
                 board[i][j] = output[i][j];
+            }
         }
+
     }
 
     public int status_zero(int[][] board, int x, int y, int m, int n) {
         // if exactly three neighbours --> 1
+        // else --> 0 
         int count = 0;
 
         if (x + 1 < m && y + 1 < n && board[x + 1][y + 1] == 1)
@@ -47,7 +51,8 @@ class Solution {
     }
 
     public int status_one(int[][] board, int x, int y, int m, int n) {
-        // if exactly three neighbours --> 1
+        // if exactly three or 2 neighbous --> 1
+        // else --> 0
         int count = 0;
 
         if (x + 1 < m && y + 1 < n && board[x + 1][y + 1] == 1)
