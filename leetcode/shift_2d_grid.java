@@ -2,23 +2,19 @@
 
         public List < List < Integer >> shiftGrid(int[][] grid, int k) {
             List < List < Integer >> result = new ArrayList();
-
-
+            
             int m = grid.length;
             int n = grid[0].length;
-
             int[] rotated_arr = new int[m * n];
 
             int z = 0;
             for (int i = 0; i < m; i++) {
                 for (int j = 0; j < n; j++) {
                     int new_index = (z + k) % rotated_arr.length;
-
                     rotated_arr[new_index] = grid[i][j];
                     z++;
                 }
             }
-
 
             List < Integer > curr = new ArrayList < Integer > ();
             int r = 0;
@@ -39,12 +35,9 @@
                 }
             }
 
-
             return result;
-
         }
     }
-
 
     // ugly code
     /*class Solution {
