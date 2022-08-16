@@ -5,21 +5,14 @@ class Solution {
         
         for(int i=0; i<s.length(); i++)
         {
-            if(map.containsKey(s.charAt(i)))
-                map.put(s.charAt(i),-1);
-            else
-                map.put(s.charAt(i), i);
+           map.put(s.charAt(i), map.getOrDefault(s.charAt(i),0) +1);
         }
         
-        int min = Integer.MAX_VALUE;
-        for(char c: map.keySet())
+        for(int i=0;i<s.length();i++)
         {
-            if(map.get(c)>-1 && map.get(c)<min)
-                min = map.get(c);
+            if(map.get(s.charAt(i))==1)
+                return i;
         }
-        
-        if(min!=Integer.MAX_VALUE)
-            return min;
         
         return -1;
         
