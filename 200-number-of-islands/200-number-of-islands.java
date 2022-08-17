@@ -37,10 +37,12 @@ class Solution {
         index.append(',');
         index.append(c);
         
-        if(visited.contains(index.toString()))
+        String curr = index.toString();
+        
+        if(visited.contains(curr))
             return false;
         
-        visited.add(index.toString());
+        visited.add(curr);
         
         DFS(grid, r-1, c, visited);
         DFS(grid, r+1, c, visited);
