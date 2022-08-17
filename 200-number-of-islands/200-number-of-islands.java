@@ -32,12 +32,15 @@ class Solution {
         if(grid[r][c] == '0')
             return false;
         
-        String index = r+","+c;
+        StringBuilder index = new StringBuilder();
+        index.append(r);
+        index.append(',');
+        index.append(c);
         
-        if(visited.contains(index))
+        if(visited.contains(index.toString()))
             return false;
         
-        visited.add(index);
+        visited.add(index.toString());
         
         DFS(grid, r-1, c, visited);
         DFS(grid, r+1, c, visited);
