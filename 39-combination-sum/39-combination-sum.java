@@ -27,6 +27,8 @@ class Solution {
         
         for(int i=curr_index; i<candidates.length; i++)
         {
+            if(target<candidates[i])
+                continue;
             
             nums.add(candidates[i]);
             helper(lists, nums , candidates, target-candidates[i], i);
