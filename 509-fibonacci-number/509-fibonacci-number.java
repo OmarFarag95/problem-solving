@@ -32,32 +32,57 @@
 // }
 
 
+// class Solution {
+    
+//     public int fib(int n)
+//     {
+        
+//         if (n==0)
+//             return 0;
+        
+        
+//         int a = 0;
+//         int b = 1;
+        
+//         int sum = 1;
+        
+//         int i=2;
+        
+//         while(i<=n)
+//         {
+//             sum = a+b;
+//             a = b;
+//             b = sum;
+            
+            
+//             i++;
+//         }
+        
+//         return sum;
+//     }
+// }
+
 class Solution {
+    HashMap<Integer,Integer> memo = new HashMap<>();
     
     public int fib(int n)
     {
-        
-        if (n==0)
+        return helper_fib(n, this.memo);
+    }
+    
+    public int helper_fib(int n, HashMap<Integer,Integer> memo)
+    {
+        if(n==0)
             return 0;
         
+        if(n==1)
+            return 1;
         
-        int a = 0;
-        int b = 1;
+        if(memo.containsKey(n))
+            return memo.get(n);
         
-        int sum = 1;
+        memo.put(n, helper_fib(n-1,memo) + helper_fib(n-2,memo));
         
-        int i=2;
-        
-        while(i<=n)
-        {
-            sum = a+b;
-            a = b;
-            b = sum;
-            
-            
-            i++;
-        }
-        
-        return sum;
+        return memo.get(n);
     }
 }
