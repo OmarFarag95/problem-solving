@@ -23,7 +23,7 @@ class Solution {
         
         helper(output, curr, digits.length(), digits, 0);
         
-        // System.out.println(output);
+        System.out.println(output);
         
             
         return output;
