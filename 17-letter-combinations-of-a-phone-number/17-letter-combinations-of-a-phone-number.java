@@ -22,9 +22,6 @@ class Solution {
         StringBuilder curr = new StringBuilder();
         
         helper(output, curr, digits.length(), digits, 0);
-        
-        System.out.println(output);
-        
             
         return output;
         
