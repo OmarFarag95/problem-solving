@@ -3,7 +3,7 @@ class Solution {
         
         Arrays.sort(candidates);
         
-        HashSet<List<Integer>> output = new HashSet<>();
+        List<List<Integer>> output = new ArrayList<>();
         HashMap<Integer,List<Integer>> memo = new HashMap<>();
         
         List<Integer> curr = new ArrayList<>();
@@ -17,7 +17,7 @@ class Solution {
         
     }
     
-    public void helper(HashSet<List<Integer>> output, List<Integer> curr, int [] candidates, int target, int index)
+    public void helper(List<List<Integer>> output, List<Integer> curr, int [] candidates, int target, int index)
     {    
             
         if(target==0)
