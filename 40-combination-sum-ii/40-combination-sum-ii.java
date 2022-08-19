@@ -11,7 +11,7 @@ class Solution {
         helper(output, curr, candidates, target, 0);
         
         
-        return new ArrayList<>(output);
+        return output;
         
         
         
