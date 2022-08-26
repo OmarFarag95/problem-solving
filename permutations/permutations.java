@@ -5,22 +5,19 @@ class Solution {
         
         List<Integer> curr = new ArrayList<>();
         
-        HashSet<List<Integer>> map = new HashSet<>();
-        
-        helper(output, nums, curr, nums.length, 0, map);
+        helper(output, nums, curr, nums.length, 0);
         
         return output;
         
     }
     
-    void helper(List<List<Integer>> output, int [] nums, List<Integer> curr, int count, int index, HashSet<List<Integer>> map)
+    void helper(List<List<Integer>> output, int [] nums, List<Integer> curr, int count, int index)
     {
         if(count==0)
         {
             
             output.add(new ArrayList<>(curr));
             
-            map.add(new ArrayList<>(curr));
             
             return;
         }
@@ -31,7 +28,7 @@ class Solution {
                 continue;
             
             curr.add(nums[i]);
-            helper(output, nums, curr, count-1, i+1, map);
+            helper(output, nums, curr, count-1, i+1);
             curr.remove(curr.size()-1);
         }
         
