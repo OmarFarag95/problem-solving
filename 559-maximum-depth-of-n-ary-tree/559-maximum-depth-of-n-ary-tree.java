@@ -26,7 +26,6 @@ class Solution {
 
         int size = 0;
 
-
         nodes.add(root);
 
 
