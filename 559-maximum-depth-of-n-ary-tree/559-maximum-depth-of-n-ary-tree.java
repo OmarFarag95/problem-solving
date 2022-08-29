@@ -29,29 +29,21 @@ class Solution {
 
         nodes.add(root);
 
-        int n = 1;
 
-        int count = 0;
         while (nodes.size() != 0) {
 
-            count = 0;
+            int n = nodes.size();
 
-            while (n != 0) {
+            for (int i = 0; i < n; i++) {
                 Node curr = nodes.poll();
-                if (curr.children.size() > 0)
-                    for (Node c: curr.children) {
-                        nodes.add(c);
-                        count += 1;
-                    }
-
-                n--;
-
-                if (n == 0)
-                    size += 1;
+                for (Node c: curr.children)
+                    nodes.add(c);
             }
 
-            n = count;
+            size += 1;
         }
+
+
         return size;
     }
 
