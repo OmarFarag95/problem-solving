@@ -15,9 +15,7 @@ class Solution {
             }
             
         }
-        
         return count;
-        
     }
     
     
@@ -50,6 +48,6 @@ class Solution {
         DFS(grid, r, c+1, visited);
         
         return true;
-        
     }
+
 }
