@@ -15,21 +15,32 @@
  */
 class Solution {
     public boolean isValidBST(TreeNode root) {
-        
-      return check_bounds(root,null,null);
-    }
-    
-    public boolean check_bounds (TreeNode root, Integer low, Integer high)
-    {
         if(root==null)
             return true;
         
-        if(high!=null && root.val>=high)
-            return false;
+        //for first approach
         
-        if(low!=null && root.val<=low)
-            return false;
+            ArrayList<Integer> vals = new ArrayList<>();
+            create_traverse_list(root,vals);
+            for(int i=0;i<vals.size()-1;i++)
+                if(vals.get(i+1)<=vals.get(i))
+                    return false;
         
-        return check_bounds(root.left,low,root.val) && check_bounds(root.right,root.val,high);
+        return true;
+        
+        //for second approach
+        
+        //return check_bounds(root,null,null);
+    }
+    
+    public void create_traverse_list (TreeNode root,ArrayList<Integer> vals)
+    {
+        if(root!=null)
+        {
+            create_traverse_list(root.left,vals);
+            vals.add(root.val);
+            
+            create_traverse_list(root.right,vals);
+        }        
     }
 }
