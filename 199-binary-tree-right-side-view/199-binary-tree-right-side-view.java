@@ -39,6 +39,8 @@ class Solution {
                 
                 if(n == 0)
                     output.add(curr.val);
+                
+                //System.out.print(curr.val + " ");
             
                 if(curr.left!=null)
                 {
@@ -55,6 +57,8 @@ class Solution {
             }
             
             n = count;
+            //System.out.println();
+            
         }
         
         return output;
