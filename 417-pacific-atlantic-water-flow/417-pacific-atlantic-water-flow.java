@@ -1,8 +1,6 @@
 class Solution {
     public List<List<Integer>> pacificAtlantic(int[][] heights) {
         
-        HashSet<String> visited = new HashSet<>();
-        
         List<List<Integer>> output = new ArrayList<>();
         
         
@@ -12,18 +10,14 @@ class Solution {
         
         for(int r=0;r<heights.length;r++)
         {
-            visited = new HashSet<>();
-            expand(heights,r,0, heights[r][0], visited, pacif);
-            visited = new HashSet<>();
-            expand(heights,r,heights[0].length-1, heights[r][heights[0].length-1], visited, atl);
+            expand(heights,r,0, heights[r][0], new HashSet<String>(), pacif);
+            expand(heights,r,heights[0].length-1, heights[r][heights[0].length-1], new HashSet<String>(), atl);
         }
         
         for(int c=0;c<heights[0].length;c++)
         {
-            visited = new HashSet<>();
-            expand(heights,0,c, heights[0][c], visited, pacif);
-            visited = new HashSet<>();
-            expand(heights,heights.length-1,c, heights[heights.length-1][c], visited, atl);
+            expand(heights,0,c, heights[0][c], new HashSet<String>(), pacif);
+            expand(heights,heights.length-1,c, heights[heights.length-1][c], new HashSet<String>(), atl);
         }
         
         
