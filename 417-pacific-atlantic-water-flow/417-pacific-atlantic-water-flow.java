@@ -34,8 +34,14 @@ class Solution {
     public void expand (int [][] heights, int r, int c, int current_value, HashSet<String> visited, boolean [][] ocean)
     {
         
-
-        if(visited.contains(r+","+c))
+        StringBuilder sb = new StringBuilder();
+        sb.append(r);
+        sb.append(",");
+        sb.append(c);
+        
+        String index = sb.toString();
+        
+        if(visited.contains(index))
             return;
         
         if(r< 0  || r > heights.length-1)
@@ -51,7 +57,7 @@ class Solution {
         ocean[r][c] = true;
         
         
-        visited.add(r+","+c);
+        visited.add(index);
         
         
         expand(heights, r-1, c, heights[r][c],visited,ocean);
