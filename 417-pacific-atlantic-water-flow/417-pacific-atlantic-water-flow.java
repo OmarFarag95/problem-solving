@@ -1,7 +1,7 @@
 class Solution {
     public List<List<Integer>> pacificAtlantic(int[][] heights) {
         
-        HashMap<String, Boolean> visited = new HashMap<>();
+        HashSet<String> visited = new HashSet<>();
         
         List<List<Integer>> output = new ArrayList<>();
         
@@ -12,13 +12,17 @@ class Solution {
         
         for(int r=0;r<heights.length;r++)
         {
+            visited = new HashSet<>();
             expand(heights,r,0, heights[r][0], visited, pacif);
+            visited = new HashSet<>();
             expand(heights,r,heights[0].length-1, heights[r][heights[0].length-1], visited, atl);
         }
         
         for(int c=0;c<heights[0].length;c++)
         {
+            visited = new HashSet<>();
             expand(heights,0,c, heights[0][c], visited, pacif);
+            visited = new HashSet<>();
             expand(heights,heights.length-1,c, heights[heights.length-1][c], visited, atl);
         }
         
@@ -33,10 +37,12 @@ class Solution {
         return output;
     }
     
-    public void expand (int [][] heights, int r, int c, int current_value, HashMap<String, Boolean> visited, boolean [][] ocean)
+    public void expand (int [][] heights, int r, int c, int current_value, HashSet<String> visited, boolean [][] ocean)
     {
         
 
+        if(visited.contains(r+","+c))
+            return;
         
         if(r< 0  || r > heights.length-1)
             return;
@@ -47,11 +53,11 @@ class Solution {
         if(heights[r][c]<current_value)
             return;
         
-        if(ocean[r][c])
-            return;
         
         ocean[r][c] = true;
         
+        
+        visited.add(r+","+c);
         
         
         expand(heights, r-1, c, heights[r][c],visited,ocean);
