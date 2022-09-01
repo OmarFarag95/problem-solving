@@ -14,44 +14,68 @@
  * }
  */
 class Solution {
-    public int goodNodes(TreeNode root) {
+//     public int goodNodes(TreeNode root) {
 
-        Stack < TreeNode > nodes = new Stack < > ();
+//         Stack < TreeNode > nodes = new Stack < > ();
 
-        HashMap < TreeNode, Integer > map = new HashMap < > ();
+//         HashMap < TreeNode, Integer > map = new HashMap < > ();
 
-        nodes.push(root);
-        map.put(root, Integer.MIN_VALUE);
+//         nodes.push(root);
+//         map.put(root, Integer.MIN_VALUE);
 
-        int count = 0;
-
-
-        while (nodes.size() != 0) {
-            int n = nodes.size();
-
-            TreeNode curr = nodes.pop();
-            int curr_max = map.get(curr);
-
-            if (curr.val >= curr_max) {
-                count += 1;
-                curr_max = curr.val;
-            }
-
-            if (curr.left != null) {
-                nodes.push(curr.left);
-                map.put(curr.left, curr_max);
-            }
-
-            if (curr.right != null) {
-                nodes.push(curr.right);
-                map.put(curr.right, curr_max);
-            }
+//         int count = 0;
 
 
-        }
+//         while (nodes.size() != 0) {
+//             int n = nodes.size();
+
+//             TreeNode curr = nodes.pop();
+//             int curr_max = map.get(curr);
+
+//             if (curr.val >= curr_max) {
+//                 count += 1;
+//                 curr_max = curr.val;
+//             }
+
+//             if (curr.left != null) {
+//                 nodes.push(curr.left);
+//                 map.put(curr.left, curr_max);
+//             }
+
+//             if (curr.right != null) {
+//                 nodes.push(curr.right);
+//                 map.put(curr.right, curr_max);
+//             }
 
 
+//         }
 
+//         return count;
+//     }
+    
+    int count = 0;
+    
+    public int goodNodes(TreeNode root)
+    {
+        
+        dfs(root, Integer.MIN_VALUE);
+        
         return count;
+    }
+    
+    public void dfs(TreeNode root, int max_sofar)
+    {
+        if(root==null)
+            return;
+        
+        if(root.val>=max_sofar)
+        {
+            max_sofar = root.val;
+            this.count+=1;
+        }
+        
+        dfs(root.left,max_sofar);
+        dfs(root.right,max_sofar);
+        
     }
 }
