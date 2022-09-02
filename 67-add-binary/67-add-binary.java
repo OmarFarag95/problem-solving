@@ -29,7 +29,6 @@ class Solution {
             j--;
         }
         
-        System.out.println(rem);
         if(rem==1)
             res.append(1);
         
