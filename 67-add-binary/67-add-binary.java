@@ -13,11 +13,11 @@ class Solution {
         while(i>=0 || j>=0)
         {
             if(i>=0)
-                x = Character.getNumericValue(a.charAt(i));
+                x = a.charAt(i) - '0';
             else x = 0;
             
             if(j>=0)
-                y = Character.getNumericValue(b.charAt(j));
+                y = b.charAt(j)- '0';
             else y = 0;
             
             int sum = x+y+rem;
