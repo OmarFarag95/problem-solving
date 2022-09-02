@@ -22,26 +22,8 @@ class Solution {
             
             int sum = x+y+rem;
             
-            if(sum==2)
-            {
-                res.append('0');
-                rem = 1;
-            }
-            else if(sum==3)
-            {
-                res.append('1');
-                rem = 1;
-            }
-            else if (sum==1)
-            {
-                res.append('1');
-                rem = 0;
-            }
-            else 
-            {
-                res.append('0');
-                rem = 0;
-            }
+            res.append(sum%2);
+            rem = sum/2;
             
             i--;
             j--;
