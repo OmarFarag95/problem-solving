@@ -8,7 +8,7 @@ class Solution {
         return max;
     }
 
-    private int helper(int[] nums, int[] multipliers, int m, int n, int left, int index, int[][] dp) {
+    public int helper(int[] nums, int[] multipliers, int m, int n, int left, int index, int[][] dp) {
 	    int right = n - 1 - (index - left);
 	    if (index == m) return 0;
 
