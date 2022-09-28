@@ -13,10 +13,8 @@ class Solution {
         for(int i=0;i < s.length(); i++)
         {
             if(Character.isDigit(s.charAt(i)))
-            {
                 current = current * 10 + Character.getNumericValue(s.charAt(i));
-                
-            }
+             
             else if (s.charAt(i)=='-')
             {
                 output = output + current*sign;
