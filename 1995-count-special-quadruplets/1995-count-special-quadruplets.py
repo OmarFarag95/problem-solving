@@ -11,7 +11,6 @@ class Solution:
                 curr_sum = nums[a]+nums[b]
                 map[curr_sum] = map.get(curr_sum,[]) + [b]
         
-        print(map)
         for c in range(0,len(nums)):
             for d in range(c+1, len(nums)):
                 curr_sum = (nums[d] - nums[c])
