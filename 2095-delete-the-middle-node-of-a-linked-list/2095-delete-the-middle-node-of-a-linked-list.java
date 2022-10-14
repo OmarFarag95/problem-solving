@@ -50,7 +50,7 @@ class Solution {
             fast = fast.next.next;
         }
         
-        // slow is now the node before the middle node
+        // slow node is now the middle node
         if(slow.next==null)
         {
             head.next=null;
