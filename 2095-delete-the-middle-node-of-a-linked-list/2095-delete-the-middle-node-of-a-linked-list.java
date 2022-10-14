@@ -13,11 +13,9 @@ class Solution {
         
         if(head==null || head.next==null)
             return null;
-        
-        
 
         ListNode slow = head;
-        ListNode fast = head.next.next;
+        ListNode fast = head;
         
         while(fast!=null && fast.next!=null)
         {
@@ -26,6 +24,12 @@ class Solution {
         }
         
         // slow is now the node before the middle node
+        if(slow.next==null)
+        {
+            head.next=null;
+            return head;
+        }
+        slow.val = slow.next.val;
         slow.next = slow.next.next;
         
         return head;
