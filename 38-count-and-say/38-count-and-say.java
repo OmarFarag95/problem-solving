@@ -10,9 +10,9 @@ class Solution {
     
     public String Parse(String s)
     {
+        StringBuilder out = new StringBuilder();
         s+='#';
         int c=1;
-        String out="";
         char st= s.charAt(0);
         int i=1;
         
@@ -23,13 +23,14 @@ class Solution {
             
             else
             {
-                out+=""+c+""+st;
+                out.append(c);
+                out.append(st);
                 st=s.charAt(i);
                 c=1;
             }
             i++;
         }
-        return out;
+        return out.toString();
     }
 }
 
