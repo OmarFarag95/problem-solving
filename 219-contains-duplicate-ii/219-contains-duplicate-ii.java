@@ -22,6 +22,7 @@ class Solution {
 //         return false;
 //     }
     
+    
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         
         HashMap<Integer,Integer> map = new HashMap<>();
