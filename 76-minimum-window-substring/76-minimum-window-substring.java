@@ -26,6 +26,7 @@ class Solution {
         {
             curr_counts.put(s.charAt(r), curr_counts.getOrDefault(s.charAt(r),0)+1);
             
+            // .equals here is just fucckkk
             if(curr_counts.get(s.charAt(r)).equals(counts.getOrDefault(s.charAt(r),0)))
                 length+=1;
                 
