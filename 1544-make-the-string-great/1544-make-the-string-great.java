@@ -7,16 +7,12 @@ class Solution {
         
         for (char currChar : s.toCharArray()) {
             
-            if (!chars.isEmpty())
+            if (!chars.isEmpty() && Math.abs(chars.peek()-currChar)==32)
             {
-                //NICE TRICK
-                if(Math.abs(chars.lastElement()-currChar)==32)
-                    chars.pop();
-                
+                chars.pop();
+            }
             else
                 chars.add(currChar);
-            }
-            else chars.add(currChar);
         }
         
         for (char currChar : chars) 
