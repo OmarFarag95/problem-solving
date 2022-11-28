@@ -13,6 +13,8 @@ class Solution {
             
             
             UnWinners.add(curr[0]);
+            UnWinners.add(curr[1]);
+            
             Winnersplayers.put(curr[1], Winnersplayers.getOrDefault(curr[1],0)+1);
             
         }
@@ -22,13 +24,11 @@ class Solution {
         {
             if(!Winnersplayers.containsKey(k))
                 non_losers.add(k);
-        }
-        
-        for(Integer k: Winnersplayers.keySet())
-        {
+            
             if(Winnersplayers.getOrDefault(k,0) == 1)
                 one_losers.add(k);
         }
+        
         Collections.sort(non_losers);
         Collections.sort(one_losers);
         
