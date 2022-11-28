@@ -32,8 +32,6 @@ class Solution {
         Collections.sort(non_losers);
         Collections.sort(one_losers);
         
-        
-        
         List<List<Integer>> output = new ArrayList<>();
         
         output.add(non_losers);
