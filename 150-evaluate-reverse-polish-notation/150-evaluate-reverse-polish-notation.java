@@ -17,7 +17,6 @@ class Solution {
                 
                 int result = eval(a, b, tokens[i]);
                 
-                
                 nums.push(result);
             }
             
