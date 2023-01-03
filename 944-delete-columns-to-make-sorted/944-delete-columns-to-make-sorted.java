@@ -4,6 +4,7 @@ class Solution {
         HashMap < Integer, Character > map = new HashMap < > ();
 
         HashSet < Integer > columns = new HashSet < > ();
+        int count = 0;
         for (int i = 0; i < strs.length; i++) {
             String word = strs[i];
 
