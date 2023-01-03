@@ -23,8 +23,7 @@ class Solution {
             }
                 k++;
             }
-            
-            System.out.println(map);
+
         }
         
         return columns.size();
