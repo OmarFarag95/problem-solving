@@ -1,5 +1,5 @@
 class Solution {
-    /*public boolean checkInclusion(String s1, String s2) {
+    public boolean checkInclusion(String s1, String s2) {
         
         HashMap<Character,Integer> freq_A = new HashMap<>();
         
@@ -45,25 +45,25 @@ class Solution {
         
         
         
-    }*/
-    
-    public boolean checkInclusion(String s1, String s2)
-    {
-        char [] arr_1 = s1.toCharArray();
-        
-        Arrays.sort(arr_1);
-        
-        if(s1.length()<=s2.length())
-        {
-            for(int i=0;i<=s2.length() - s1.length();i++)
-            {
-                char [] t = s2.substring(i,i+s1.length()).toCharArray();
-                Arrays.sort(t);
-                String t_sorted = new String(t);
-                if(new String(arr_1).equals(t_sorted))
-                    return true;
-            }
-        }
-        return false;
     }
+    
+//     public boolean checkInclusion(String s1, String s2)
+//     {
+//         char [] arr_1 = s1.toCharArray();
+        
+//         Arrays.sort(arr_1);
+        
+//         if(s1.length()<=s2.length())
+//         {
+//             for(int i=0;i<=s2.length() - s1.length();i++)
+//             {
+//                 char [] t = s2.substring(i,i+s1.length()).toCharArray();
+//                 Arrays.sort(t);
+//                 String t_sorted = new String(t);
+//                 if(new String(arr_1).equals(t_sorted))
+//                     return true;
+//             }
+//         }
+//         return false;
+//     }
 }
