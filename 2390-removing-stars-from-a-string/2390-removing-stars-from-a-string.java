@@ -46,26 +46,23 @@ class Solution {
         return s;
     }*/
     public String removeStars(String s) {
-        
-        Stack<Character> st = new Stack<Character>();
+
+        Stack < Character > st = new Stack < Character > ();
         StringBuilder sb = new StringBuilder();
-        
-        for(int i = 0;i<s.length();i++)
-        {
-            if(s.charAt(i) == '*')
-            {
+
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == '*') {
                 st.pop();
-            }
-            else {
-                    st.push(s.charAt(i));
-                    
+            } else {
+                st.push(s.charAt(i));
+
             }
         }
-        
-        for(char c : st)
+
+        for (char c: st)
             sb.append(c);
-        
+
         return sb.toString();
-        
+
     }
 }
