@@ -45,7 +45,7 @@ class Solution {
         }
         return s;
     }*/
-    public String removeStars(String s) {
+    /*public String removeStars(String s) {
 
         Stack < Character > st = new Stack < Character > ();
         StringBuilder sb = new StringBuilder();
@@ -63,5 +63,35 @@ class Solution {
 
         return sb.toString();
 
+    }*/
+    public String removeStars(String s)
+    {
+        int i = 0;
+        int j = 0;
+        
+        char chars [] = new char[s.length()];
+        
+        while(i<s.length())
+        {
+            if(s.charAt(i) == '*')
+            {
+                j--;
+            }
+            else
+            {
+                chars[j] = s.charAt(i);
+                j++;
+            }
+            i++;
+        }
+        
+        StringBuilder sb = new StringBuilder();
+        
+        for(i=0;i<j;i++)
+        {   
+            sb.append(chars[i]);
+        }
+        
+        return sb.toString();
     }
 }
