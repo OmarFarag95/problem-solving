@@ -88,9 +88,7 @@ class Solution {
         StringBuilder sb = new StringBuilder();
         
         for(i=0;i<j;i++)
-        {   
             sb.append(chars[i]);
-        }
         
         return sb.toString();
     }
