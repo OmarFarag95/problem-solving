@@ -18,10 +18,8 @@ class Solution {
         
         if(head.next==null)
             return head;
-        
-        int target = size/2;
-
-        
+    
+        int target = size/2;    
         int i=0;
         
         ListNode t = head;
