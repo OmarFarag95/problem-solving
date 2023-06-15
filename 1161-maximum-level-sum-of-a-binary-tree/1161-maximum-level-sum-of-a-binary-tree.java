@@ -33,8 +33,7 @@ class Solution {
             int levelSize = queue.size();
             int currSum = 0;
             
-            if (levelSize>0)
-                currLevel +=1;
+            currLevel +=1;
             
             for(int i=0;i<levelSize;i++)
             {
