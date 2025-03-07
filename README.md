@@ -32,6 +32,7 @@
 |  |
 | ------- |
 | [2456-construct-smallest-number-from-di-string](https://github.com/OmarFarag95/problem-solving/tree/master/2456-construct-smallest-number-from-di-string) |
+| [3447-clear-digits](https://github.com/OmarFarag95/problem-solving/tree/master/3447-clear-digits) |
 ## Backtracking
 |  |
 | ------- |
@@ -40,8 +41,13 @@
 |  |
 | ------- |
 | [2456-construct-smallest-number-from-di-string](https://github.com/OmarFarag95/problem-solving/tree/master/2456-construct-smallest-number-from-di-string) |
+| [3447-clear-digits](https://github.com/OmarFarag95/problem-solving/tree/master/3447-clear-digits) |
 ## Greedy
 |  |
 | ------- |
 | [2456-construct-smallest-number-from-di-string](https://github.com/OmarFarag95/problem-solving/tree/master/2456-construct-smallest-number-from-di-string) |
+## Simulation
+|  |
+| ------- |
+| [3447-clear-digits](https://github.com/OmarFarag95/problem-solving/tree/master/3447-clear-digits) |
 <!---LeetCode Topics End-->
