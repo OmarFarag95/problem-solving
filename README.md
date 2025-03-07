@@ -28,4 +28,20 @@
 |  |
 | ------- |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/OmarFarag95/problem-solving/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
+## String
+|  |
+| ------- |
+| [2456-construct-smallest-number-from-di-string](https://github.com/OmarFarag95/problem-solving/tree/master/2456-construct-smallest-number-from-di-string) |
+## Backtracking
+|  |
+| ------- |
+| [2456-construct-smallest-number-from-di-string](https://github.com/OmarFarag95/problem-solving/tree/master/2456-construct-smallest-number-from-di-string) |
+## Stack
+|  |
+| ------- |
+| [2456-construct-smallest-number-from-di-string](https://github.com/OmarFarag95/problem-solving/tree/master/2456-construct-smallest-number-from-di-string) |
+## Greedy
+|  |
+| ------- |
+| [2456-construct-smallest-number-from-di-string](https://github.com/OmarFarag95/problem-solving/tree/master/2456-construct-smallest-number-from-di-string) |
 <!---LeetCode Topics End-->
