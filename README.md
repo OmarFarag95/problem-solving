@@ -59,4 +59,8 @@
 |  |
 | ------- |
 | [0974-reorder-data-in-log-files](https://github.com/OmarFarag95/problem-solving/tree/master/0974-reorder-data-in-log-files) |
+## Database
+|  |
+| ------- |
+| [3932-find-covid-recovery-patients](https://github.com/OmarFarag95/problem-solving/tree/master/3932-find-covid-recovery-patients) |
 <!---LeetCode Topics End-->
