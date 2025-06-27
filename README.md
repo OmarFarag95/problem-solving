@@ -63,5 +63,6 @@
 |  |
 | ------- |
 | [1268-market-analysis-i](https://github.com/OmarFarag95/problem-solving/tree/master/1268-market-analysis-i) |
+| [3865-find-product-recommendation-pairs](https://github.com/OmarFarag95/problem-solving/tree/master/3865-find-product-recommendation-pairs) |
 | [3932-find-covid-recovery-patients](https://github.com/OmarFarag95/problem-solving/tree/master/3932-find-covid-recovery-patients) |
 <!---LeetCode Topics End-->
