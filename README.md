@@ -65,6 +65,7 @@
 | [0176-second-highest-salary](https://github.com/OmarFarag95/problem-solving/tree/master/0176-second-highest-salary) |
 | [0180-consecutive-numbers](https://github.com/OmarFarag95/problem-solving/tree/master/0180-consecutive-numbers) |
 | [0185-department-top-three-salaries](https://github.com/OmarFarag95/problem-solving/tree/master/0185-department-top-three-salaries) |
+| [0197-rising-temperature](https://github.com/OmarFarag95/problem-solving/tree/master/0197-rising-temperature) |
 | [0262-trips-and-users](https://github.com/OmarFarag95/problem-solving/tree/master/0262-trips-and-users) |
 | [0601-human-traffic-of-stadium](https://github.com/OmarFarag95/problem-solving/tree/master/0601-human-traffic-of-stadium) |
 | [1268-market-analysis-i](https://github.com/OmarFarag95/problem-solving/tree/master/1268-market-analysis-i) |
