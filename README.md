@@ -72,6 +72,7 @@
 | [3530-odd-and-even-transactions](https://github.com/OmarFarag95/problem-solving/tree/master/3530-odd-and-even-transactions) |
 | [3865-find-product-recommendation-pairs](https://github.com/OmarFarag95/problem-solving/tree/master/3865-find-product-recommendation-pairs) |
 | [3891-find-category-recommendation-pairs](https://github.com/OmarFarag95/problem-solving/tree/master/3891-find-category-recommendation-pairs) |
+| [3898-seasonal-sales-analysis](https://github.com/OmarFarag95/problem-solving/tree/master/3898-seasonal-sales-analysis) |
 | [3921-find-consistently-improving-employees](https://github.com/OmarFarag95/problem-solving/tree/master/3921-find-consistently-improving-employees) |
 | [3932-find-covid-recovery-patients](https://github.com/OmarFarag95/problem-solving/tree/master/3932-find-covid-recovery-patients) |
 <!---LeetCode Topics End-->
