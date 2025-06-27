@@ -62,6 +62,7 @@
 ## Database
 |  |
 | ------- |
+| [0180-consecutive-numbers](https://github.com/OmarFarag95/problem-solving/tree/master/0180-consecutive-numbers) |
 | [0601-human-traffic-of-stadium](https://github.com/OmarFarag95/problem-solving/tree/master/0601-human-traffic-of-stadium) |
 | [1268-market-analysis-i](https://github.com/OmarFarag95/problem-solving/tree/master/1268-market-analysis-i) |
 | [3865-find-product-recommendation-pairs](https://github.com/OmarFarag95/problem-solving/tree/master/3865-find-product-recommendation-pairs) |
