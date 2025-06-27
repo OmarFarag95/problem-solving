@@ -31,6 +31,7 @@
 ## String
 |  |
 | ------- |
+| [0974-reorder-data-in-log-files](https://github.com/OmarFarag95/problem-solving/tree/master/0974-reorder-data-in-log-files) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/OmarFarag95/problem-solving/tree/master/2456-construct-smallest-number-from-di-string) |
 | [3447-clear-digits](https://github.com/OmarFarag95/problem-solving/tree/master/3447-clear-digits) |
 ## Backtracking
@@ -50,4 +51,12 @@
 |  |
 | ------- |
 | [3447-clear-digits](https://github.com/OmarFarag95/problem-solving/tree/master/3447-clear-digits) |
+## Array
+|  |
+| ------- |
+| [0974-reorder-data-in-log-files](https://github.com/OmarFarag95/problem-solving/tree/master/0974-reorder-data-in-log-files) |
+## Sorting
+|  |
+| ------- |
+| [0974-reorder-data-in-log-files](https://github.com/OmarFarag95/problem-solving/tree/master/0974-reorder-data-in-log-files) |
 <!---LeetCode Topics End-->
