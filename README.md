@@ -8,6 +8,7 @@
 |  |
 | ------- |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/OmarFarag95/problem-solving/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
+| [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/OmarFarag95/problem-solving/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 ## Tree
 |  |
 | ------- |
@@ -55,10 +56,12 @@
 |  |
 | ------- |
 | [0974-reorder-data-in-log-files](https://github.com/OmarFarag95/problem-solving/tree/master/0974-reorder-data-in-log-files) |
+| [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/OmarFarag95/problem-solving/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 ## Sorting
 |  |
 | ------- |
 | [0974-reorder-data-in-log-files](https://github.com/OmarFarag95/problem-solving/tree/master/0974-reorder-data-in-log-files) |
+| [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/OmarFarag95/problem-solving/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 ## Database
 |  |
 | ------- |
@@ -75,4 +78,8 @@
 | [3898-seasonal-sales-analysis](https://github.com/OmarFarag95/problem-solving/tree/master/3898-seasonal-sales-analysis) |
 | [3921-find-consistently-improving-employees](https://github.com/OmarFarag95/problem-solving/tree/master/3921-find-consistently-improving-employees) |
 | [3932-find-covid-recovery-patients](https://github.com/OmarFarag95/problem-solving/tree/master/3932-find-covid-recovery-patients) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/OmarFarag95/problem-solving/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 <!---LeetCode Topics End-->
