@@ -56,11 +56,13 @@
 |  |
 | ------- |
 | [0974-reorder-data-in-log-files](https://github.com/OmarFarag95/problem-solving/tree/master/0974-reorder-data-in-log-files) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/OmarFarag95/problem-solving/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/OmarFarag95/problem-solving/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 ## Sorting
 |  |
 | ------- |
 | [0974-reorder-data-in-log-files](https://github.com/OmarFarag95/problem-solving/tree/master/0974-reorder-data-in-log-files) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/OmarFarag95/problem-solving/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/OmarFarag95/problem-solving/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 ## Database
 |  |
@@ -82,4 +84,12 @@
 |  |
 | ------- |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/OmarFarag95/problem-solving/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
+## Two Pointers
+|  |
+| ------- |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/OmarFarag95/problem-solving/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+## Binary Search
+|  |
+| ------- |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/OmarFarag95/problem-solving/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 <!---LeetCode Topics End-->
